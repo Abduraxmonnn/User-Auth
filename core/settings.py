@@ -30,6 +30,7 @@ INSTALLED_APPS = [
     # LIBRARIES
     'rest_framework',
     'rest_framework.authtoken',
+    'drf_yasg',
 
     # APPS
     'apps.user',
