@@ -4,6 +4,8 @@
 
 test project
 
+### link to test: [test link](https://auth-api-uz-f8b5d8f1cd6f.herokuapp.com/)
+
 ### About the Project
 
 Project Description: User Authentication and Profile Management System
@@ -46,9 +48,7 @@ Key Features:
 ### About the BackEnd
 
 This project raised in architecture `MVT` `(Model View Template)`. There are email verification, multilanguage, user
-token,
-calculate statistics each centers and other features.
-
+token, calculate statistics each centers and other features.
 
 ***
 
