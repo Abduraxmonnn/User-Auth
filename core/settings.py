@@ -83,11 +83,14 @@ if DB is True:
         }
     }
 else:
-    PROJECT_DIR = os.path.abspath(os.path.dirname(__file__))
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.sqlite3',
-            'NAME': os.path.join(PROJECT_DIR, 'yourdatabasename.db'),
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'd2u2ltiuni9mer',
+            'USER': 'ilpgsdbunxftmk',
+            'PASSWORD': 'b68dec5bcf794d6d0559177704bccc5e375189e2bc2cca5082d2a3ccd22d47d0',
+            'HOST': 'ec2-52-54-200-216.compute-1.amazonaws.com',
+            'PORT': '5432',
         }
     }
 # Password validation
