@@ -4,7 +4,8 @@
 
 test project
 
-### link to test: [test link](https://auth-api-uz-f8b5d8f1cd6f.herokuapp.com/)
+### link to test server: [link](https://auth-api-uz-f8b5d8f1cd6f.herokuapp.com/)
+### link to Postman: [link](https://www.postman.com/gold-shuttle-412815/workspace/hammer-systems-api-docs)
 
 ### About the Project
 
