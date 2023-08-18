@@ -70,7 +70,23 @@ $ cd User-Auth/
 
 ***
 
+### Note before the run
+
+* If you need a database with a little data's then you have to change the `DB` to `True` in `core/settings.py` in the
+  other ways you will use clear database
+
 ## Setting project
+
+If you want to run project in docker.
+
+* `Docker`
+
+```shell
+docker compose up -d
+docker compose logs -f
+```
+
+Open http://127.0.0.1:8000 in your browser for see result.
 
 * `Linux`
 
@@ -147,7 +163,7 @@ Open http://127.0.0.1:8000 in your browser for see result.
 ## Note:
 
 I have used `models.Model` for `CustomUser` instead of `AbstractBaseUser` and `PermissionsMixin` because for the
-specific task you've described, using a model to handle phone number authorization is likely more suitable than using 
+specific task you've described, using a model to handle phone number authorization is likely more suitable than using
 Django's `AbstractBaseUser` and `PermissionsMixin`. Here's why:
 
 1. **Simplicity and Task Fit**:
