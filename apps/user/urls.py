@@ -2,7 +2,8 @@
 from django.urls import path
 
 # Project
-from apps.user.api import CustomUserAuthAPIView, OTPVerifyAPIView, ActivateInviteCodeAPIView, UserMeAPIView
+from apps.user.api import (CustomUserAuthAPIView, OTPVerifyAPIView, ActivateInviteCodeAPIView, UserMeAPIView,
+                           GetOTPAPIView)
 
 urlpatterns = [
     path('auth/', CustomUserAuthAPIView.as_view(), name='user_auth'),
@@ -10,4 +11,5 @@ urlpatterns = [
     path('activate_invite_code/<str:phone_number>/', ActivateInviteCodeAPIView.as_view(),
          name='activate_another_invite_code'),
     path('user_list/<str:phone_number>/', UserMeAPIView.as_view(), name='user_list'),
+    path('get_otp/<str:phone_number>/', GetOTPAPIView.as_view(), name='user_list'),
 ]
